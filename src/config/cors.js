@@ -2,7 +2,7 @@ const checkNodeEnvironment = require("../utils/checkNodeEnvironment");
 
 const origin = checkNodeEnvironment(
   "https://torre-test-client.vercel.app",
-  "http://localhost:3000"
+  "*"
 );
 
 const corsConfig = {
